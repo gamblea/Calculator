@@ -122,10 +122,14 @@
     <Flex Include="sample.l" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Expression.cpp" />
+    <ClCompile Include="Number.cpp" />
     <ClCompile Include="sample.flex.cpp" />
     <ClCompile Include="Token.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Expression.h" />
+    <ClInclude Include="Number.h" />
     <ClInclude Include="Scanner.h" />
     <ClInclude Include="Token.h" />
   </ItemGroup>
