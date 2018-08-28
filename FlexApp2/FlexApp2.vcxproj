@@ -122,16 +122,23 @@
     <Flex Include="sample.l" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Binary.cpp" />
     <ClCompile Include="Expression.cpp" />
+    <ClCompile Include="ExpressionReader.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Number.cpp" />
     <ClCompile Include="sample.flex.cpp" />
     <ClCompile Include="Token.cpp" />
+    <ClCompile Include="Uniary.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Binary.h" />
     <ClInclude Include="Expression.h" />
+    <ClInclude Include="ExpressionReader.h" />
     <ClInclude Include="Number.h" />
     <ClInclude Include="Scanner.h" />
     <ClInclude Include="Token.h" />
+    <ClInclude Include="Uniary.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -2,11 +2,16 @@
 #ifndef SCANNER_H
 #define SCANNER_H 
 
+/*
 #if ! defined(yyFlexLexerOnce)
 #undef yyFlexLexer
-#define yyFlexLexer Scanner // the trick with prefix; no namespace here :(
+//#define yyFlexLexer Scanner // the trick with prefix; no namespace here :(
 #include <FlexLexer.h>
-#endif
+*/
+
+#if ! defined(yyFlexLexerOnce)
+#include <FlexLexer.h>
+#endif 
 
 #include "Token.h"
 
